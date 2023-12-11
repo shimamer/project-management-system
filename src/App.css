@@ -1,0 +1,5 @@
+.auth-container{
+  background-image: url(./assets/images/auth-bg.png);
+  background-size: cover;
+  background-position: center center;
+}
