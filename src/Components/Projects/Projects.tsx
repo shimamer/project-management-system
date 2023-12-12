@@ -1,7 +1,5 @@
-import React from 'react'
+/** @format */
 
 export default function Projects() {
-  return (
-    <div>Projects</div>
-  )
+  return <div>Projects</div>;
 }

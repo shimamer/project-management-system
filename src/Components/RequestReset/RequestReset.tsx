@@ -1,7 +1,7 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
 
 export default function RequestReset() {
-  return (
-    <div>RequestReset</div>
-  )
+  return <div>RequestReset</div>;
 }
