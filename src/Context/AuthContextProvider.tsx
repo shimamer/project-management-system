@@ -27,7 +27,6 @@ const headerAuth: string = `Bearer ${localStorage.getItem("adminToken")}`;
 
 const AuthContextProvider: React.FC<AuthContextProviderProps> = (props) => {
   const [userData, setUserData] = useState<JwtHeader | null>(null);
-  // const [authUser,setAuthUser]=useState(null);
   const [isLogin, setIsLogin] = useState(false);
 
   useEffect(() => {
