@@ -100,10 +100,7 @@ const Login: FC = () => {
             </Link>
           </div>
           <div className="form-group mt-3">
-            <button
-              className="btn btn-warning base-bg-color w-100 mt-3 login-btn"
-              disabled={!isLogin}
-            >
+            <button className="btn btn-warning base-bg-color w-100 mt-3 login-btn">
               Login
             </button>
           </div>

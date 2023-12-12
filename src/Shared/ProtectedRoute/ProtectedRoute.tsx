@@ -1,18 +1,17 @@
-import { Navigate } from 'react-router-dom'
+/** @format */
 
-function ProtectedRoute(children: any) {
-    
-    //hint:
-    // change name of variable: (adminData) to new name
-    // and git it from context 
+import { Navigate } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthContextProvider";
+import { useContext } from "react";
 
-    if (adminData == null && localStorage.getItem("adminToken") == null) {
-        return (
-            <Navigate to="/login" />
-        )
-    } else {
-        return children
-    }
+function ProtectedRoute({ children }: { children: React.ReactNode }) {
+  const authContext = useContext(AuthContext);
+
+  if (authContext?.userData == null && authContext?.token == null) {
+    return <Navigate to="/login" />;
+  } else {
+    return children;
+  }
 }
 
-export default ProtectedRoute
+export default ProtectedRoute;
