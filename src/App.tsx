@@ -12,6 +12,7 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Projects from './Components/Projects/Projects';
 import Users from './Components/Users/Users';
 import Tasks from './Components/Tasks/Tasks';
+import ProtectedRoute from './Shared/ProtectedRoute/ProtectedRoute';
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
      ]
   },{
     path:'dashboard',
-    element:<MasterLayout/>,
+    element:<ProtectedRoute><MasterLayout/></ProtectedRoute>,
     errorElement:<Notfound/>,
     children:[
      {index:true,element:<Dashboard/>},

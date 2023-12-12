@@ -1,0 +1,20 @@
+.bg-auth{
+background-color: #315951E5;
+;
+}
+.base-color{
+color: #EF9B28;
+}
+.base-bg-color{
+    background-color: #EF9B28 !important
+}
+.login-btn {
+    border-radius: 2rem !important;
+    padding: 0.6rem 0 !important;
+    color: white !important;
+}
+.toggle-pass{
+    position: absolute;
+    top: 55%;
+    left: 91%;
+}

@@ -1,5 +1,10 @@
+body{
+  font-family: Inter;
+
+}
 .auth-container{
-  background-image: url(./assets/images/auth-bg.png);
-  background-size: cover;
+  background-image: url(./assets/images/bg1.png);
+  background-size: 100% 100%;
   background-position: center center;
+  background-repeat: no-repeat;
 }
