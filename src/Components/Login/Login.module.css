@@ -1,20 +1,21 @@
 /** @format */
 
-.bg-auth {
+.bgAuth {
   background-color: #315951e5;
 }
-.base-color {
+.baseColor {
   color: #ef9b28;
 }
-.base-bg-color {
+.baseBgColor {
   background-color: #ef9b28 !important;
 }
-.login-btn {
+.loginBtn {
   border-radius: 2rem !important;
   padding: 0.6rem 0 !important;
   color: white !important;
+  border: #ef9b28 !important;
 }
-.toggle-pass {
+.togglePass {
   position: absolute;
   top: 55%;
   left: 91%;
